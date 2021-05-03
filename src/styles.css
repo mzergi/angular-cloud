@@ -62,15 +62,19 @@
 }
 .browsing-content-folders-item {
     min-height: 10%;
+    transition: 0.5s;
 }
 .browsing-content-files-item {
     min-height: 10%;
+    transition: 0.5s;
 }
 .browsing-content-files-item:hover {
     cursor: pointer;
+    background-color: lightgray;
 }
 .browsing-content-folders-item:hover {
     cursor: pointer;
+    background-color: lightgray;
 }
 .quick-access-title {
     font-size: large;
