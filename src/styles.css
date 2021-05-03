@@ -1,1 +1,98 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar-full-width{
+    left: 0 !important;
+    min-width: 100vh !important;
+}
+.navbar-wrapper{
+    padding: 0 !important;
+    margin: 0 !important;
+    min-width: 100vh !important;
+}
+.login-welcome {
+    margin-top: 10%;
+}
+.login-welcome-text {
+    padding-top: 5%;
+    font-size: large;
+    font-weight: 500;
+}
+.login-form-wrapper {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    min-height: 100vh !important;
+    min-width: 10% !important;
+    padding-left: 1.5% !important;
+    z-index: 100;
+    padding: 0 0 0;
+}
+.browsing-header {
+    left: 10%;
+    border-width: 1px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-color: rgba(0,0,0,0.2);
+    justify-content: left;
+    align-items: center;
+    min-height: 4vh;
+    min-width: 100% !important;
+    font-size: large;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+.browsing-content {
+    left: 10%;
+    min-width: 100% !important;
+    flex:auto;
+}
+.browsing-content-folders {
+    left: 10%;
+    min-width: 100% !important;
+    flex:auto;
+    margin-top: 1%;
+}
+.browsing-content-files {
+    left: 10%;
+    min-width: 100% !important;
+    flex: auto;
+    margin-top: 3%;
+}
+.browsing-content-folders-item {
+    min-height: 10%;
+}
+.browsing-content-files-item {
+    min-height: 10%;
+}
+.browsing-content-files-item:hover {
+    cursor: pointer;
+}
+.browsing-content-folders-item:hover {
+    cursor: pointer;
+}
+.quick-access-title {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+.quick-access-item{
+    font-size: medium;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color:cornflowerblue;
+    transition: 0.2s;
+}
+.quick-access-item:hover{
+    cursor: pointer;
+    border-style: solid;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    border-left: none !important;
+    min-height: 40% !important;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
